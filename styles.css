@@ -8,6 +8,7 @@
   body,
   html {
     height: 100%;
+    background-color: #35374B;
   }
   
   body,
@@ -37,6 +38,12 @@
     margin: 0;
     font-weight: bolder;
     font-style: italic;
+    margin-left: 15px;
+  }
+
+  .logo a {
+    text-decoration: none;
+    color: inherit;
   }
   
   ul {
@@ -56,6 +63,7 @@
     color: #fff;
     text-decoration: none;
     transition: color 1s ease;
+    margin-left: 50px;
   }
   
   ul li a:hover {
@@ -92,19 +100,13 @@
     transition: 0.5s ease-in-out;
   }
     
-  .bg {
-    
-    background-image: url('./images/background.jpeg');
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+
   
   .introduction {
     padding: 3rem 4rem 1rem 4rem;
     text-align: center;
     color: hsl(0, 0%, 100%);
+    margin-top: 200px;
   }
   
   .introduction h2 {
@@ -117,9 +119,26 @@
     font-size: 1.2rem;
     line-height: 1.6;
     font-weight: bolder;
-    padding-bottom: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-top: -15px;
   }
  
+  .links {
+    
+    background-color: #78A083;
+    border-radius: 0px 25px 15px 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+   
+    transform: translateY(-50%); /* Center vertically */
+
+  }
+
+
   
   .book {
     height: 40px;
@@ -143,17 +162,20 @@
     margin: 2rem;
     border-radius: 20px;
     height: 520px;
+    width: 1300px;
+    position: relative;
+    left: 85px;
   }
   
   .about-info h2 {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 1rem;
-    margin-left: 770px;
+    margin-left: 45%;
   }
   
   .about-info h3 {
-    margin-left: 790px;
+    margin-left: 45%;
     font-size: 1.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -162,6 +184,8 @@
   .about-info p {
     font-size: 1.2rem;
     line-height: 1.6;
+    text-align: center;
+
   }
   
   .team-members {
@@ -315,13 +339,15 @@
     align-items: center;
     border-style: none;
     border-radius: 20px;
-    margin-left: 50px;
+    margin-left: 250px;
+    margin-top: 15px;
+    
   }
   
   .img-place {
     height: 200px;
     width: 350px;
-    
+    border-radius: 5%;
   }
 
   .nameHeader {
@@ -331,10 +357,11 @@
   .description {
     color: hsl(0, 0%, 100%);
     padding: 10px;
+    text-align: center;
   }
   .recommendation {
     display: flex;
-    background-color: hsla(210, 88%, 64%, 0.5);
+    background-color: #344955;
     flex-direction: column;
     justify-content: center;
     align-items: center;
